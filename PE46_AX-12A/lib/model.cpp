@@ -10,7 +10,7 @@ SoftwareSerial soft_serial(7, 8); // DYNAMIXELShield UART RX/TX
 const int DXL_DIR_PIN = 2; // DYNAMIXEL Shield DIR PIN
 
 // Baudrate 1000000
-const uint8_t DXL_ID = 1;
+const uint8_t DXL_ID = 11;
 const float DXL_PROTOCOL_VERSION = 1.0; // important
 
 /* installize led */
@@ -23,16 +23,16 @@ using namespace ControlTableItem;
 
 void setup()
 {
-  DEBUG_SERIAL.begin(115200);
-  while (!DEBUG_SERIAL)
-    ;
+    DEBUG_SERIAL.begin(115200);
+    while (!DEBUG_SERIAL)
+        ;
 
-  dxl.begin(1000000);
-  dxl.setPortProtocolVersion(DXL_PROTOCOL_VERSION);
-  /* add you codes here */
+    dxl.begin(1000000);
+    dxl.setPortProtocolVersion(DXL_PROTOCOL_VERSION);
+    /* add you codes here */
 }
 
 void loop()
 {
-  /* add your codes here */
+    /* add your codes here */
 }
