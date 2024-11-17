@@ -88,9 +88,6 @@ SoftwareSerial soft_serial(7, 8); // DYNAMIXELShield UART RX/TX
 #define DEBUG_SERIAL soft_serial
 const int DXL_DIR_PIN = 2; // DYNAMIXEL Shield DIR PIN
 
-// Baudrate 1000000
-const float DXL_PROTOCOL_VERSION = 1.0; // important
-
 /* installize led */
 myLED led(LED_BUILTIN);
 
