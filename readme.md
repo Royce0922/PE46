@@ -32,6 +32,8 @@
 	you can enable and disable torque when there is a need
 
 - $Position$
+
+
   **moving to the specific position**
 
   > use High Precision Encoder to detect the angle
@@ -43,6 +45,7 @@
   ![angle](img/dx_series_goal_position.png)
 
 - $Speed$
+
   **constantly moving in a specifi speed**
 
   It is the present moving speed. 0~2,047 (0x7FF) can be used. If a value is in the rage of 0~1,023, it means that the motor rotates to the CCW direction. If a value is in the rage of 1,024~2,047, it means that the motor rotates to the CW direction. That is, the 10th bit becomes the direction bit to control the direction, and 0 and 1,024 are equal. The unit of this value varies depending on operation mode.
