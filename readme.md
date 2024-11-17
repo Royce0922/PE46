@@ -40,7 +40,7 @@
   The available position range is 0 to 1,023 (0x3FF) and the per unit value is 0.29 °
   If the Goal Position is set over the CW/CCW Angle Limit, the Status Packet transmits Angle Limit Error Bit (0x01) via its ERROR field. In the case, providing that Angle Limit Error Bit(0x01) in the Alarm LED(17)/Shutdown(18) is set, the Alarm LED will start blinking and the motor’s output will be 0 [%].
 
-  ![angle](img\dx_series_goal_position.png)
+  ![angle](img/dx_series_goal_position.png)
 
 - $Speed$
   **constantly moving in a specifi speed**
